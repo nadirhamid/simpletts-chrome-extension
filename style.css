@@ -1,0 +1,59 @@
+.visualHelper-__MSG_@@extension_id__ { all: initial;
+}
+
+.visualHelper-__MSG_@@extension_id__ * {
+    all: unset;
+}
+
+.visualHelper-__MSG_@@extension_id__ {
+        background: #133e6e;
+	height: 300px;
+        color: #FFF;
+        position: fixed;
+        width: 94%;
+        left: 1%;
+        right: 1%;
+        bottom: 2%;
+        border-radius: 7px;
+        z-index: 999999999;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-family: 'Roboto',arial,sans-serif;
+
+}
+
+
+.visualHelper-__MSG_@@extension_id__ #text {
+	position: absolute;
+	height: 262px;
+	overflow-y: auto;
+	font-size: 52px;
+	top: 0px;
+	left: 0px;
+}
+.visualHelper-__MSG_@@extension_id__ #text p {
+	height: 100px;
+}
+
+.visualHelper-__MSG_@@extension_id__ #text:after {
+	clear: both;
+	display: block;
+	content: '';
+	margin: 0;
+}
+
+.visualHelper-__MSG_@@extension_id__ #controls {
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+
+.visualHelper-__MSG_@@extension_id__ #controls button {
+	border:none;
+	background: #FFF;
+	cursor: pointer;
+	font-size: 38px;
+	cursor: pointer;
+	margin-right: 5px;
+	color: #000;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Visual Helper - Options</title>
+	</head>
+	<body>
+		<h2>Visual Helper - Options</h2>
+		<form name="options" method="POST">
+			<label>Text To Speech Voice</label>
+			<select id="voices" required>
+				<option value="">Select Voice</option>
+			</select>
+			<label>Word Breakpoints</label>
+			<small>Causes screen reader to separate words into different queue cards</small>
+			<input type="checkbox" id="wordBreakpoints" />
+			<div id="wordBreakpointsOn">
+			 	<label>Words Per Break</label>
+
+				<input type="number" id="wordBreakpointsNumber" />
+			<hr/>
+			<button type="submit">Save</button>
+		</form>
+		<script src="options.js"></script>
+	</body>
+</html>
