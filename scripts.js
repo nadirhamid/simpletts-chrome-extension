@@ -251,4 +251,3 @@ function onTabUpdated() {
 console.log("Loaded visual helper content script");
 chrome.runtime.onMessage.addListener(onMessageReceived);
 window.addEventListener("unload", onWindowUnload);
-chrome.tabs.onUpdated.addListener(onTabUpdated);
