@@ -187,6 +187,7 @@ function startConverting(request) {
 		stopBtn.setAttribute("class", "control-button stop");
 		stopBtn.innerHTML = "Stop";
 		screenReaderControls.appendChild(stopBtn);
+		/*
 		if ( wordBreakpointsOn && prevSegment ) {
 			var prevBtn = document.createElement("button");
 			prevBtn.onclick = onClickPrev;
@@ -201,6 +202,7 @@ function startConverting(request) {
 			nextBtn.innerHTML = "Next";
 			screenReaderControls.appendChild(nextBtn);
 		}
+		*/
 		screenReader.outer.appendChild(screenReaderControls);
 
 		speechState.reader=screenReader;
